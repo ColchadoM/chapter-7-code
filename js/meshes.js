@@ -17,7 +17,7 @@ function setup () {
   camera = new THREE.PerspectiveCamera(60, aspect, 0.1, 1000);
   camera.position.z = 10;
 
-  canvas = getElementsByTagName('canvas')[0];
+  canvas = document.getElementsByTagName('canvas')[0];
   renderer = new THREE.WebGLRenderer({
     canvas    : canvas,
     antialias : true,
